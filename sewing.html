@@ -1,0 +1,248 @@
+<!DOCTYPE html> 
+
+<html> 
+
+  <head> 
+
+    <title>KNITTING</title> 
+
+    <meta charset="UTF-8"> 
+
+    <style> 
+
+       body{ 
+
+       display: flex; 
+
+       min-height: 100vh; 
+
+       align-items: center; 
+
+       justify-content: center; 
+
+       background: #c8d0e3; 
+
+       position:relative; 
+
+       } 
+
+       body::before{ 
+
+       content: ''; 
+
+       position: absolute; 
+
+       width: 100%; 
+
+       background: #FF676D; 
+
+       clip-path: inset(47% 0 0 0); 
+
+       z-index: -1; 
+
+       height: 100%; 
+
+       } 
+
+       ::selection{ 
+
+       background:  #FF676D; 
+
+       color: #fff; 
+
+       } 
+
+       .container{ 
+
+       max-width: 950px; 
+
+       width: 200%; 
+
+       overflow: hidden; 
+
+       padding: 100px 0; 
+
+       } 
+
+       .container .main-card{ 
+       align-content:center; 
+       width:300%; 
+       } 
+    #two:checked ~ .main-card{ 
+    margin: left -100px; 
+    } 
+    .container .main-card .cards{ 
+    width: calc(100%/2 - 10px); 
+    display: flex; 
+    flex-wrap: wrap; 
+    margin: 10px 0 10px; 
+    justify-content:initial; 
+    } 
+
+.main-card .cards .card{ 
+
+  width: 18%; 
+
+  background: #fff; 
+
+  border-radius: 12px; 
+
+  padding: 30px; 
+
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25); 
+
+  transition: all 0.4s ease; 
+
+} 
+
+.main-card .cards .card:hover{ 
+
+  transform: translateY(-15px); 
+
+} 
+
+.cards .card .content{ 
+
+  width: 100%; 
+
+  display: flex; 
+
+  flex-direction: column; 
+
+  justify-content: center; 
+
+  align-items: center; 
+
+  text-align: center; 
+
+} 
+
+input[type="radio"]{ 
+
+  display: none; 
+
+} 
+
+@media (max-width: 768px) { 
+
+  .main-card .cards .card{ 
+
+    margin: 50px 0 50px 0; 
+
+    width: calc(100% / 2 - 10px); 
+
+  } 
+
+} 
+
+@media (max-width: 600px) { 
+
+  .main-card .cards .card{ 
+
+    /* margin: 20px 0 10px 0; */ 
+
+    width: 100%; 
+
+  } 
+
+} 
+
+ 
+
+.o{ 
+
+  font-family: 'Roboto', sans-serif; 
+
+font-family: 'Shadows Into Light', cursive; 
+
+font-family: 'Signika', sans-serif; 
+
+color:#7f188b; 
+
+border: 2px solid black;  
+
+padding: 10px;  
+
+text-align: center;  
+
+text-align:center; 
+
+width:auto; 
+
+} 
+
+.o:hover{ 
+
+color:black; 
+} 
+.job a{ 
+
+    color:#FF676D; 
+
+    text-decoration: none;; 
+} 
+
+.job a:hover{ 
+
+    color:rgb(97, 15, 152); 
+
+    text-decoration:underline; 
+
+} 
+
+</style> 
+
+</head> 
+
+<body> 
+
+<div class="container"> 
+
+ <h1 class="o">TAILORING</h1><BR> 
+ <div class="main-card"> 
+
+   <div class="cards"> 
+
+     <div class="card"> 
+
+      <div class="content"> 
+
+         <div> 
+
+            <a href="./enterprenure1.html"><img src="./tailor1.jpeg" width="200" height="200" ></a>
+
+            </div><br> 
+
+      </div> 
+
+     </div> 
+
+     <div class="card"> 
+
+        <div class="content"> 
+
+           <div> 
+
+               <a href="./enterprenure2.html" ><img src="./tailor2.png" width="200" height="200"></a>
+               </div><br> 
+
+        </div> 
+
+       </div> 
+
+       <div class="card"> 
+
+        <div class="content"> 
+
+           <div> 
+
+               <a href="./enterprenure3.html"><img src="./tailor3.png" width="200" height="200"></a>
+</div> 
+
+</body> 
+
+</html> 
+
+ 
+
+ 
